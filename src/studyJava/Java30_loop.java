@@ -37,7 +37,7 @@ public class Java30_loop {
 			}
 			x+=2; // x = x + 2 증가치
 			sum += x; //sum = sum + x
-		}while(x < 10);
+		}while(x < 10); //조건이 참이면 반복
 		System.out.print(sum);
 		System.out.println();
 		
